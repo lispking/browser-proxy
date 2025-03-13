@@ -1,44 +1,46 @@
 # Browser Proxy Manager
 
-这是一个简单的Chrome浏览器代理管理插件，可以帮助用户快速切换和管理代理设置。
+[English](README.md) | [简体中文](README.zh.md)
 
-## 功能特点
+A simple Chrome browser extension for quick proxy management and switching.
 
-- 支持HTTP代理服务器配置
-- 可以快速开启/关闭代理
-- 保存代理设置
-- 简洁的用户界面
+## ✨ Features
 
-## 安装方法
+- HTTP proxy server configuration support
+- Quick proxy enable/disable toggle
+- Save proxy settings
+- Clean user interface
 
-1. 打开Chrome浏览器，进入扩展程序页面（chrome://extensions/）
-2. 开启右上角的「开发者模式」
-3. 点击「加载已解压的扩展程序」
-4. 选择本插件所在文件夹
+## 💿 Installation
 
-## 启用插件
+1. Open Chrome browser and navigate to extensions page (chrome://extensions/)
+2. Enable "Developer mode" in the top right corner
+3. Click "Load unpacked extension"
+4. Select the extension folder
 
-1. 安装完成后，Chrome会显示「已添加新的扩展程序」的通知
-2. 如果出现「开发者模式扩展程序警告」，这是正常现象，点击「保留更改」即可
-3. 在Chrome工具栏右上角找到Browser Proxy Manager的图标
-   - 如果没有看到图标，点击工具栏的「扩展程序」图标（拼图形状）
-   - 找到Browser Proxy Manager并点击图钉图标，将其固定在工具栏
-4. 看到工具栏上出现了代理管理器图标，说明插件已经成功启用
+## 🔌 Enabling the Extension
 
-## 使用说明
+1. After installation, Chrome will show a notification "New extension added"
+2. If you see a "Developer Mode Extensions Warning", this is normal, click "Keep changes"
+3. Find the Browser Proxy Manager icon in the top right toolbar
+   - If you don't see the icon, click the "Extensions" icon (puzzle piece shape)
+   - Find Browser Proxy Manager and click the pin icon to fix it to the toolbar
+4. When you see the proxy manager icon in the toolbar, the extension is successfully enabled
 
-1. 点击浏览器工具栏中的插件图标
-2. 在弹出的窗口中输入代理服务器地址和端口
-3. 使用开关按钮启用/禁用代理
-4. 点击保存按钮应用设置
+## 🚀 Usage
 
-## 注意事项
+1. Click the extension icon in the browser toolbar
+2. Enter proxy server address and port in the popup window
+3. Use the toggle switch to enable/disable proxy
+4. Click the save button to apply settings
 
-- 请确保输入的代理服务器地址和端口号正确
-- 代理设置会自动保存在浏览器本地存储中
-- 如果插件图标显示灰色，表示代理未启用；显示绿色表示代理已启用
-- 首次安装后需要刷新已打开的网页才能使代理设置生效
+## ⚠️ Notes
 
-## 许可证
+- Make sure the proxy server address and port number are correct
+- Proxy settings are automatically saved in browser local storage
+- Grey icon indicates proxy is disabled; green icon indicates proxy is enabled
+- After first installation, refresh opened web pages to make proxy settings take effect
 
-本项目采用 [Apache License 2.0](LICENSE) 开源许可证。
+## 📄 License
+
+This project is licensed under the [Apache License 2.0](LICENSE).
